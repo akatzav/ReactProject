@@ -1,5 +1,5 @@
 import { Card } from "../features/cards/cardSlice";
-
+import './restaurant.module.scss'
 
 export const restaurants: Card[] = [
     {

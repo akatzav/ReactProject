@@ -20,11 +20,7 @@ type HeaderProps = {
 export const HomePage = ({ title, logo }: HeaderProps) => {
     return (
 
-        <div style={{
-            backgroundImage: `url("https://raw.githubusercontent.com/akatzav/images/main/patrix.jpg")`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover"
-        }}>
+        <div className={css.homePage}>
 
             {/* 
             <Navbar expand="lg" className={css.nav}>
