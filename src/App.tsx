@@ -19,10 +19,11 @@ function App() {
   return (
     <div className="App">
       <>
-        <NavBar /> <hr /><br></br><br /><br /><br />
-        <HomePage title="מסעדות כשרות בדרום" logo={logo} />
+        <NavBar />
+        {/* <HomePage title="מסעדות כשרות בדרום" logo={logo} /> */}
         {/* <AddCard /> */}
         <Routes>
+          <Route path='/' element={<HomePage title="מסעדות כשרות בדרום" logo={logo} />} />
           <Route path='/Filters' element={<Filters />} />
           <Route path="/AddCard" element={<AddCard />} />
           <Route path="/RestaurantList" element={<RestaurantList />} />

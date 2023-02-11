@@ -22,7 +22,7 @@ export const HomePage = ({ title, logo }: HeaderProps) => {
 
         <div className={css.homePage}>
 
-            {/* 
+            
             <Navbar expand="lg" className={css.nav}>
                 <Container>
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -35,7 +35,7 @@ export const HomePage = ({ title, logo }: HeaderProps) => {
                     </Navbar.Collapse>
                 </Container>
 
-            </Navbar>  */}
+            </Navbar>  
 
             <div className={css.logoAndTitle}>
                 <img src={logo} className={css.logo} alt="" id="logo" />

@@ -29,13 +29,11 @@
 
 }
 
-body {
-    background-image: url("https: //raw.githubusercontent.com/akatzav/images/main/patrix.jpg");
-}
-
-
-.homePage {
-    background-image: url("https: //raw.githubusercontent.com/akatzav/ReactProject/main/src/image/kitchen1.jpg");
+.homePage  {
+    background-image: url(https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/kitchen.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
+    background-color: #b42222;
 }
