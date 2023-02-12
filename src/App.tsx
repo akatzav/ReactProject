@@ -12,6 +12,7 @@ import { Filters } from './components/filters/Filters';
 import { useState } from 'react';
 import { restaurants } from './services/restaurant';
 import { HomePage } from './components/Home-Page/HomePage';
+import { TitleAndLogo } from './components/Title-And-Logo/TitleAndLogo';
 
 
 
@@ -23,7 +24,8 @@ function App() {
         {/* <HomePage title="מסעדות כשרות בדרום" logo={logo} /> */}
         {/* <AddCard /> */}
         <Routes>
-          <Route path='/' element={<HomePage title="מסעדות כשרות בדרום" logo={logo} />} />
+          <Route path='/' element={<HomePage  title="מסעדות כשרות בדרום" logo={logo} />} />
+          <Route path='/' element={<TitleAndLogo title="מסעדות כשרות בדרום" logo={logo} />} />
           <Route path='/Filters' element={<Filters />} />
           <Route path="/AddCard" element={<AddCard />} />
           <Route path="/RestaurantList" element={<RestaurantList />} />

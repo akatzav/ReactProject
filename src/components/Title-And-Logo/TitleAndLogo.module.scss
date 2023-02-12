@@ -11,32 +11,20 @@
     height: 200px;
 }
 
-
 .logoAndTitle {
     display: flex;
     justify-content: center;
     align-items: center;
     transform-style: flat;
-    display: none;
-
-
+    display: block;
+    position: fixed;
 }
 
-.homePage  {
-    background-image: url(https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/kitchen5.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-/*  opacity: 0.8; */
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-}
 
 .title{
     font-family: Imported;
-    color:#49111C;
+    color: #49111C;
     opacity: 1;
     font-size: 40px;
-    display: none;
+    display: block;
 }

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Imported;
+    src: url("../../fonts/Heebo-Black.ttf")
+}
+
+.nav {
+    margin-top: 10px;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.navLinks {
+    margin-top: 50px;
+    font-family: Imported, serif;
+    color: #49111C;
+    font-size: 20px;
+    margin-right: auto;
+        margin-left: auto;
+
+}
+
+
+.navLinks:hover{
+    color: #0a0908;
+}
+
+
+
