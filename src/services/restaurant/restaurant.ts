@@ -22,7 +22,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://barbakar.com",
         phone: "054-5739010",
-        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/hamburger1.jpg'
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/barbakar.jpg'
     },
     {
         id: "3",
