@@ -198,7 +198,7 @@ export const restaurants: Card[] = [
         kosher: "בדץ בית יוסף",
         link_rest: "https://www.nissorest.co.il/",
         phone: "08-995-4545",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/fish.jpg"
     },
     {
         id: "19",
