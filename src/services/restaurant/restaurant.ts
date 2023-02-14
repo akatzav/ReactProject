@@ -11,7 +11,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://bet-aful.co.il/",
         phone: "*5328",
-        img: "https://raw.githubusercontent.com/akatzav/images/main/bait-haful.jpg"
+        img: ""
     },
     {
         id: "2",
@@ -22,7 +22,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://barbakar.com",
         phone: "054-5739010",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/barbakar.jpg'
+        img: ''
     },
     {
         id: "3",
@@ -33,7 +33,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "https://gregcafe.co.il",
         phone: "052-7044411, 08-6640309",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/greg.jpg'
+        img: ''
     },
     {
         id: "4",
@@ -44,7 +44,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.mishlohim.co.il/menu/10717",
         phone: "053-9441823",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/librati.jpg'
+        img: ''
     },
     {
         id: "5",
@@ -55,7 +55,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.patricksb7.co.il/?utm_source=google&utm_medium=wix_google_channel&utm_campaign=google-ads-campaign-2023-1-9- 9692fc10&gclid=Cj0KCQiAq5meBhCyARIsAJrtdr7nXmuMeE_oBpz2OL0rQkbQkd1TIiOQuDu-z8W4bZYmyRwg1AhMmY4aAoDqEALw_wcB",
         phone: "053-8007518",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/patrix.jpg'
+        img: ''
     },
     {
         id: "6",
@@ -66,7 +66,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.iburgerim.co.il",
         phone: "*4999",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/boorgerim.jpg'
+        img: ''
     },
     {
         id: "7",
@@ -77,7 +77,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.rest.co.il/rest/38310050",
         phone: "053-9443409",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/avaz-hazahav.jpg'
+        img: ''
     },
     {
         id: "8",
@@ -88,7 +88,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "https://www.cafecafe.co.il/he/home/a/main",
         phone: "08-6640309",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/cafe-cafe.jpg'
+        img: ''
     },
     {
         id: "9",
@@ -99,7 +99,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "/none",
         phone: "077-2311778",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/halumi.jpg'
+        img: ''
     },
     {
         id: "10",
@@ -110,7 +110,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://butchery.rol.co.il",
         phone: "08-6233370",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/butchery.png'
+        img: ''
     },
     {
         id: "11",
@@ -121,7 +121,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "/none",
         phone: "08-8555428",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/piza-shemesh.jpg'
+        img: ''
     },
     {
         id: "12",
@@ -132,7 +132,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "/none",
         phone: "08-970-8888",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/pizza-ramontada.jpg'
+        img: ''
     },
     {
         id: "13",
@@ -143,7 +143,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "/none",
         phone: "*2242",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/burgers-bar.png'
+        img: ''
     },
     {
         id: "14",
@@ -154,29 +154,29 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.joyasushi.co.il",
         phone: " 08-6900982",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/joya.jpg'
+        img: ''
     },
     {
         id: "15",
-        name: "מקסיקני  ",
+        name: "מקסיקני",
         city: "נתיבות",
         street: " יוסף סמלו 39 ",
         kosher: "כשר",
         status: "בשרי",
         link_rest: "/none",
         phone: " 053-2431706",
-        img: 'https://raw.githubusercontent.com/akatzav/images/main/mexicani.jpg'
+        img: ''
     },
     {
         id: "16",
-        name: "וויצמן ",
+        name: "וויצמן",
         city: "אשדוד",
         street: "הבנאים 9",
         kosher: "מחפוד",
         status: "בשרי",
         link_rest: "/none",
         phone: " 050-9990938",
-        img: '../image/mexicani.jpg'
+        img: ''
     },
     {
         id: "17",
@@ -221,7 +221,7 @@ export const restaurants: Card[] = [
         kosher: "כשר",
         link_rest: "/none",
         phone: "053-6115082",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/dunia.jpg"
     },
     {
 
