@@ -1,4 +1,4 @@
-import { Card } from "../features/cards/cardSlice";
+import { Card } from "../../features/cards/cardSlice";
 import './restaurant.module.scss'
 
 export const restaurants: Card[] = [
@@ -209,7 +209,7 @@ export const restaurants: Card[] = [
         kosher: "כשר",
         link_rest: "/none",
         phone: "08-8569457",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/babbi's.jpg"
     },
     {
 
@@ -244,7 +244,7 @@ export const restaurants: Card[] = [
         kosher: "בדץ",
         link_rest: "/none",
         phone: "053-9441932",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/termisu.jpg"
     },
     {
         id: "23",

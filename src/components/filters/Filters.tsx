@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { restaurants } from "../../services/restaurant";
+import { restaurants } from "../../services/restaurant/restaurant";
 import Restaurant from "../../pages/card-item/Restaurant";
 
 

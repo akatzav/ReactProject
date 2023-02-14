@@ -9,27 +9,34 @@ import { GrCircleInformation, GrCircleAlert, GrRestaurant } from 'react-icons/gr
 import { BiFilter } from 'react-icons/bi'
 import css from './HomePage.module.scss'
 import { IoIosInformationCircleOutline } from 'react-icons/io'
+import { Footer } from '../footer/Footer'
 
 type HeaderProps = {
     title: string;
-    logo: string
+    logo: string,
+    description: string
 }
 
-export const HomePage = ( { title, logo }: HeaderProps ) => {
+export const HomePage = ({ title, logo, description }: HeaderProps) => {
+
     return (
-            <div className={css.homePage}>
+        <div className={css.homePage} >
+
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <div className={css.logoAndTitle}>
+                <img src={logo} className={css.logo} alt="" id="logo" />
+            </div>
+            <br />
+            <div className={css.tAd}>
+                <h1 className={css.title}>{title}</h1>
+                <p className={css.description}><br />!האתר האולטימטיבי למסעדות כשרות<br />
+                    .אתר זה נוסד במיוחד בשבילך על מנת להקל את תהליך חיפוש אחר מסעדות כשרות בדרום<br />
+                    .תוכלו למצוא לחפש מאפיינים מסויימים ולקבל את המענה הרצוי<br />
+                    </p>
+            </div>
+                
+            <br /><br /><br /><br /><Footer /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             
-                <br /><br /><br /><br />
-                <div className={css.logoAndTitle}>
-                    <img src={logo} className={css.logo} alt="" id="logo" />
-                </div>
-                <br />
-                <div>
-                    <p className={css.title}>{title}</p>
-                </div>
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <div>
-                </div> 
         </div>
     )
 }

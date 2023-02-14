@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { restaurants } from "../../services/restaurant";
+import { restaurants } from "../../services/restaurant/restaurant";
 
 export type Kosher =
     | "כשר"

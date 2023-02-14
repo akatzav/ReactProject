@@ -1,25 +1,17 @@
 import { useAppSelector } from "../../app/hook";
 import CardItem from "../card-item/Restaurant";
-import '../../themed-bootstrap.scss'
-
-import '../../image/avaz-hazahav.jpg'
-import '../../image/bait-haful.jpg'
-import '../../image/barbakar.jpg'
-import '../../image/boorgerim.jpg'
-import '../../image/cafe-cafe.jpg'
-import '../../image/greg.jpg'
-import '../../image/librati.jpg'
-import '../../image/patrix.jpg'
-
+import css from './restaurantList.module.scss'
 
 
 const RestaurantList = () => {
     const cards = useAppSelector((s) => s.card.cards);
     return (
-        <div className="cards ">
+        <div className={css.pageRes}>
+        <div className={css.cards} >
             {cards.map((r) => (
                 <CardItem {...r} key={r.id} />
             ))}
+        </div>
         </div>
     )
 }

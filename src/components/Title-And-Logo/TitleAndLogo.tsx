@@ -4,9 +4,10 @@ import css from './TitleAndLogo.module.scss'
 
 type HeaderProps = {
     title: string;
-    logo: string
+    logo: string,
+    description: string
 }
-export const TitleAndLogo = ({ title, logo }: HeaderProps) => {
+export const TitleAndLogo = ({ title, logo, description }: HeaderProps) => {
     return (
        <>
             <div className={css.logoAndTitle}>

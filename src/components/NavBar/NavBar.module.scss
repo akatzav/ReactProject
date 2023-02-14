@@ -8,25 +8,25 @@
     position: fixed;
     z-index: 1000;
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
+@media (min-width: 1050px) {
+            color:#49111c;
+        }
 }
 
 
 .navLinks {
     margin-top: 50px;
     font-family: Imported, serif;
-    color: #49111C;
+    color: #a9927d;
     font-size: 20px;
     margin-right: auto;
-        margin-left: auto;
+    margin-left: auto;
 
 }
 
 
-.navLinks:hover{
-    color: #0a0908;
+.navLinks:hover {
+    color: #F2F4F3;
 }
-
-
-

@@ -1,0 +1,18 @@
+.pageRes{
+    background-color: #000;
+    object-fit: cover;
+}
+
+.cards {
+    margin-top: 200px;
+    display: grid !important;
+    grid-template-columns: auto auto auto !important;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 18rem;
+    height: 30rem;
+}

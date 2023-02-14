@@ -7,7 +7,7 @@ import '../../themed-bootstrap.scss'
 import { useNavigate } from 'react-router-dom';
 import RestaurantList from '../../pages/card-list/RestaurantList';
 import Restaurant from '../../pages/card-item/Restaurant';
-import { restaurants } from '../../services/restaurant';
+import { restaurants } from '../../services/restaurant/restaurant';
 
 export const AddCard = () => {
     const [name, setName] = useState("");

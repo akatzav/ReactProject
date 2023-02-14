@@ -16,7 +16,6 @@ export const NavBar = () => {
 
 
         <div className={css.nav}>
-
             {<Navbar fixed="top" className="justify-content-center">
                 {/* <Container> */}
                     <Nav className='justify-content-center'>
@@ -29,6 +28,7 @@ export const NavBar = () => {
                 {/* </Container> */}
 
             </Navbar>}
+            <hr />
         </div>
 
     )

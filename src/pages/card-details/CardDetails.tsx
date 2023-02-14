@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { Navigate, useParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../app/hook";
 import { Card, editCard } from "../../features/cards/cardSlice"
-import { restaurants } from "../../services/restaurant";
+import { restaurants } from "../../services/restaurant/restaurant";
 import CardItem from "../card-item/Restaurant";
 import { IoEnterOutline } from 'react-icons/io5'
 const CardDetails = () => {

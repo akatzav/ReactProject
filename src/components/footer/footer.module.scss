@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Imported;
+    src: url("../../fonts/Heebo-Black.ttf")
+}
+
+.credit{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    @media (max-width: 1050px) {
+        bottom: 0;
+    }
+}
+
+li{
+    margin: 15px;
+    color: #a9927d;
+    font-family: Imported;
+}
+
+li:hover{
+        color: #F2F4F3;
+}
+
+.icon:hover{
+    color: #49111c;
+    cursor: pointer;
+}

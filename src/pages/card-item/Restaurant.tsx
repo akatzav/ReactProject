@@ -4,24 +4,26 @@ import { useNavigate } from "react-router-dom";
 import { useAppDispatch } from "../../app/hook";
 import { Card, deleteCard } from "../../features/cards/cardSlice";
 import Swal from "sweetalert2";
+import css from './Restaurant.module.scss'
+
 
 const CardItem = (props: Card) => {
     const nav = useNavigate();
     const dispatch = useAppDispatch();
 
     return (
-        <div dir="rtl" className="card">
+        <div dir="rtl" className={css.card}>
             <img src={`${props.img}`} alt="image" /><br />
 
             <div className="body-card">
                 {/* <h2>{props.name}</h2> */}
                 <hr />
-                <p>{props.city}</p>
+                <p>{props.name}</p>
             </div>
 
-            <div className="buttons">
+            <div className={css.buttons}>
                 <button
-                    className="edit"
+                    className={css.edit}
                     onClick={() => {
                         nav(`/cards/edit/${props.id}`);
                     }}
@@ -30,7 +32,7 @@ const CardItem = (props: Card) => {
                 </button>
 
                 <button
-                    className="trash"
+                    className={css.trash}
                     onClick={() => {
                         Swal.fire({
                             title: "Are you sure you want to delete the card?",
@@ -51,7 +53,7 @@ const CardItem = (props: Card) => {
                 </button>
 
                 <button
-                    className="details"
+                    className={css.details}
                     onClick={() => {
                         nav(`/cards/details/${props.id}`);
                     }}
