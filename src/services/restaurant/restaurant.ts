@@ -11,7 +11,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://bet-aful.co.il/",
         phone: "*5328",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/bait-haful.jpeg"
     },
     {
         id: "2",
@@ -33,7 +33,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "https://gregcafe.co.il",
         phone: "052-7044411, 08-6640309",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/greg.jpg'
     },
     {
         id: "4",
@@ -44,7 +44,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.mishlohim.co.il/menu/10717",
         phone: "053-9441823",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/librati.jpg'
     },
     {
         id: "5",
@@ -55,7 +55,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.patricksb7.co.il/?utm_source=google&utm_medium=wix_google_channel&utm_campaign=google-ads-campaign-2023-1-9- 9692fc10&gclid=Cj0KCQiAq5meBhCyARIsAJrtdr7nXmuMeE_oBpz2OL0rQkbQkd1TIiOQuDu-z8W4bZYmyRwg1AhMmY4aAoDqEALw_wcB",
         phone: "053-8007518",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/patrix.jpg'
     },
     {
         id: "6",
@@ -132,7 +132,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "/none",
         phone: "08-970-8888",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/ramonda.jpg'
     },
     {
         id: "13",
@@ -187,7 +187,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "/none",
         phone: "053-7104528",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/shawarma.jpg"
     },
     {
         id: "18",
