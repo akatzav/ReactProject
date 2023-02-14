@@ -13,12 +13,12 @@ const CardItem = (props: Card) => {
 
     return (
         <div dir="rtl" className={css.card}>
-            <img src={`${props.img}`} alt="image" /><br />
+            <img src={`${props.img}`} alt="image" className={css.image} /><br />
 
             <div className="body-card">
                 {/* <h2>{props.name}</h2> */}
                 <hr />
-                <p>{props.name}</p>
+                <p className={css.name}>{props.name}</p>
             </div>
 
             <div className={css.buttons}>

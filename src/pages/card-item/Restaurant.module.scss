@@ -1,13 +1,7 @@
-/* .cards {
-    border: 13px solid #e01616;
-    display: flex;
-
-    width: 350px;
-    height: 400px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    flex-direction: row;
-} */
-
+@font-face {
+    font-family: Imported;
+    src: url("../../fonts/Heebo-Black.ttf")
+}
 
 .edit {
     margin-left: 5px;
@@ -31,4 +25,19 @@
     color: green;
     border: none;
     background-color: #fff;
+}
+
+.buttons{
+    
+}
+
+.image{
+    border-radius: 5px;
+    box-shadow: 5px 8px 3px #a9927d;
+}
+
+.name{
+    font-family: Imported;
+    color:#a9927d;
+    font-size: 30px;
 }

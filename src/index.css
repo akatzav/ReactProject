@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/kitchen5.jpg);
+        background-repeat: no-repeat;
+          background-position: center center;
+          background-attachment: fixed;
+          background-size: cover;
+          width: 100%;
 }
 
 code {
