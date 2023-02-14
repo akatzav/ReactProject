@@ -22,7 +22,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://barbakar.com",
         phone: "054-5739010",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/hamburger1.jpg'
     },
     {
         id: "3",
@@ -66,7 +66,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.iburgerim.co.il",
         phone: "*4999",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/burgerim.jpg'
     },
     {
         id: "7",
@@ -77,7 +77,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://www.rest.co.il/rest/38310050",
         phone: "053-9443409",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/avaz-hazahav.jpg'
     },
     {
         id: "8",
@@ -88,7 +88,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "https://www.cafecafe.co.il/he/home/a/main",
         phone: "08-6640309",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/cafe.jpg'
     },
     {
         id: "9",
@@ -99,7 +99,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "/none",
         phone: "077-2311778",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/halumi.jpg'
     },
     {
         id: "10",
@@ -110,7 +110,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "https://butchery.rol.co.il",
         phone: "08-6233370",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/butchery.jpg'
     },
     {
         id: "11",
@@ -121,7 +121,7 @@ export const restaurants: Card[] = [
         status: "חלבי",
         link_rest: "/none",
         phone: "08-8555428",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/shemesh.jpg'
     },
     {
         id: "12",
@@ -147,14 +147,14 @@ export const restaurants: Card[] = [
     },
     {
         id: "14",
-        name: "מסעדת ג'ויה  ",
+        name: "Joya",
         city: "נתיבות",
         street: "  סמלו 78 78 ",
         kosher: "בדץ בית יוסף",
         status: "בשרי",
         link_rest: "https://www.joyasushi.co.il",
         phone: " 08-6900982",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/joya.jpg'
     },
     {
         id: "15",
