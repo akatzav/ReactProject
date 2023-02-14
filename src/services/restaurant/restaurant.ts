@@ -266,7 +266,7 @@ export const restaurants: Card[] = [
         kosher: "כשר",
         link_rest: "https://shufan.rest.co.il/",
         phone: "053-4872373",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/shufan.jpg"
     },
     {
         id: "25",
