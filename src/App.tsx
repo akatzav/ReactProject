@@ -34,7 +34,6 @@ function App() {
           <Route path="/cards/edit/:id" element={<EditCard />} />
           <Route path='/cards/details/:id' element={<CardDetails />} />
         </Routes>
-
       </>
     </div>
   );
