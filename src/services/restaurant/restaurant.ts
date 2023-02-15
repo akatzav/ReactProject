@@ -231,9 +231,9 @@ export const restaurants: Card[] = [
         street: "ז'בוטינסקי 45",
         status: "חלבי",
         kosher: "מהדרין",
-        link_rest: "https://luciana-asdod.rest.co.il/",
-        phone: "08-6181717",
-        img: ""
+        link_rest: "https://www.luciana.co.il/",
+        phone: "02-5021000",
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/luchana.jpg"
     },
     {
         id: "22",
@@ -255,7 +255,7 @@ export const restaurants: Card[] = [
         kosher: "כשר",
         link_rest: "/none",
         phone: "053-9349805",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/vegan.jpg"
     },
     {
         id: "24",
@@ -277,7 +277,7 @@ export const restaurants: Card[] = [
         kosher: "כשר",
         link_rest: "/none",
         phone: "053-9385405",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/yavan.jpg"
     },
     {
 
