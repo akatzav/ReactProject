@@ -143,7 +143,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "/none",
         phone: "*2242",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/hamburger.jpg'
     },
     {
         id: "14",
@@ -176,7 +176,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "/none",
         phone: " 050-9990938",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/vaizman.jpg'
     },
     {
         id: "17",
