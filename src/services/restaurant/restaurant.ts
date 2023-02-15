@@ -217,7 +217,7 @@ export const restaurants: Card[] = [
         name: "דוניא",
         city: "אשקלון",
         street: "הנמל 9",
-        status: "פרווה",
+        status: "בשרי",
         kosher: "כשר",
         link_rest: "/none",
         phone: "053-6115082",
@@ -289,7 +289,7 @@ export const restaurants: Card[] = [
         kosher: "יורה דעה",
         link_rest: "/none",
         phone: "050-4119009",
-        img: ""
+        img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/hihiohm.jpg"
     }
 
 ]
