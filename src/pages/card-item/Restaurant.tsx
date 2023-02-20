@@ -5,6 +5,8 @@ import { useAppDispatch } from "../../app/hook";
 import { Card, deleteCard } from "../../features/cards/cardSlice";
 import Swal from "sweetalert2";
 import css from './Restaurant.module.scss'
+import { Footer } from "../../components/footer/Footer";
+import AddCard from "../../components/Add-Card/AddCard";
 
 
 const CardItem = (props: Card) => {
@@ -12,6 +14,7 @@ const CardItem = (props: Card) => {
     const dispatch = useAppDispatch();
 
     return (
+        <>
         <div dir="rtl" className={css.card}>
             <img src={`${props.img}`} alt="image" className={css.image} /><br />
 
@@ -61,8 +64,9 @@ const CardItem = (props: Card) => {
                     <BiDetail />
                 </button>
             </div><br /><br />
+  
         </div>
-
+        </>
     );
 };
 

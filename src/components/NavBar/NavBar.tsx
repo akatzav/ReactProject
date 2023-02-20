@@ -16,11 +16,10 @@ export const NavBar = () => {
 
 
         <div className={css.nav}>
-            {<Navbar fixed="top" className="justify-content-center">
+            {<Navbar /* fixed="top"  */className="justify-content-center">
                 {/* <Container> */}
-                    <Nav className='justify-content-center'>
+                    <Nav className={css.nav}>
                         <Nav.Link className={css.navLinks} href="/Filters"> <BiFilter /> סנן לפי</Nav.Link>
-                        <Nav.Link className={css.navLinks} href="/AddCard"> <AiOutlinePlusCircle /> הוסף מסעדה </Nav.Link>
                         <Nav.Link className={css.navLinks} href="/RestaurantList"> <IoRestaurantOutline /> מסעדות </Nav.Link>
                         <Nav.Link className={css.navLinks} href="/About"> <IoIosInformationCircleOutline /> אודות</Nav.Link>
                         <Nav.Link className={css.navLinks} href="/"><AiOutlineHome /> בית</Nav.Link>

@@ -8,7 +8,11 @@
     margin-right: 5px;
     color: dodgerblue;
     border: none;
-    background-color: #fff;
+    background-color: transparent;
+}
+
+.edit:hover{
+    color:aqua;
 }
 
 .trash {
@@ -16,7 +20,11 @@
     margin-right: 5px;
     color: red;
     border: none;
-    background-color: #fff;
+        background-color: transparent;
+}
+
+.trash:hover{
+    color:deeppink;
 }
 
 .details {
@@ -24,11 +32,11 @@
     margin-right: 5px;
     color: green;
     border: none;
-    background-color: #fff;
+        background-color: transparent;
 }
 
-.buttons{
-    
+.details:hover{
+    color: chartreuse;
 }
 
 .image{

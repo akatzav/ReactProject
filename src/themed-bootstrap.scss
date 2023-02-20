@@ -10,94 +10,20 @@ label {
     font-size: 20px;
     font-family: 'Sofia Sans';
 }
-/* 
-.cards {
-    display: grid !important;
-    grid-template-columns: auto auto auto !important;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    width: 18rem;
-    height: 30rem;
-}
- */
 #logo {
     width: 70px;
     height: 50px;
 }
 
-/* .card {
-    border: 1px solid #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 400px;
-    box-shadow: rgba(221, 8, 36, 0.671) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
- */
-
 .card input {
     width: 100%;
 }
 
-
-
-
-/* 
-.edit {
-    margin-left: 5px;
-    margin-right: 5px;
-    color: dodgerblue;
-    border: none;
-    background-color: #fff;
-}
-
-.trash {
-    margin-left: 5px;
-    margin-right: 5px;
-    color: red;
-    border: none;
-    background-color: #fff;
-}
-
-.details {
-    margin-left: 5px;
-    margin-right: 5px;
-    color: green;
-    border: none;
-    background-color: #fff;
-}
- */
 img {
     width: 349px;
     height: 300px;
     border-radius: 5px;
 }
-
-
-
-//statusFilter
-
-.selectFilter {
-    width: 189px;
-    height: 30px;
-}
-
-.buttonFilter {
-    width: 150px;
-    border-radius: 10px;
-    background-color: white;
-}
-
-.buttonFilter:hover {
-    background-color: green;
-}
-
-
 
 
 

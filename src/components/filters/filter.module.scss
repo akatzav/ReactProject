@@ -1,9 +1,29 @@
-.pageRes{
-    object-fit: cover;
+@font-face {
+    font-family: Imported;
+    src: url("../../fonts/Heebo-Black.ttf")
 }
 
-.cards {
-    margin-top: 100px;
+/* 
+.selectFilter {
+    width: 189px;
+    height: 30px;
+}
+ */
+
+.selectFilter {
+    width: 189px;
+    height: 30px;
+}
+
+.select {
+    margin-top: 20px;
+    color: #a9927d;
+    font-family: Imported;
+
+}
+
+
+.filterCard {
     display: grid !important;
     grid-template-columns: auto auto auto !important;
     margin-right: auto;

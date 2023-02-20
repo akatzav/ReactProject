@@ -3,6 +3,9 @@ import { useParams, useNavigate, Navigate } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../app/hook';
 import { Card, editCard, Kosher } from '../../features/cards/cardSlice';
 import { MdOutlineEditNote } from 'react-icons/md'
+import css from './editCard.module.scss'
+import { Footer } from '../../components/footer/Footer';
+
 
 const EditCard = () => {
     const { id } = useParams();
@@ -30,51 +33,50 @@ const EditCard = () => {
 
 
     return (
-        <div dir="rtl" className='d-flex card p-3 m-2 justify-content-center aline-item-center h-auto'>
-            <h3>עריכת פרטים:</h3>
-            <div className='label-input d-flex flex-column'>
-                <label htmlFor="name" className='label'>שם המסעדה:</label>
+        <div>
+        <div dir="rtl" className={css.edit}>
+            <h3 className={css.title1}>עריכת פרטים:</h3>
+            <div className=''>
+                <label htmlFor="name" className={css.label1}>שם המסעדה:</label>
                 <input
                     id="name"
                     value={name}
                     onChange={(e) => {
                         setName(e.currentTarget.value)
                     }}
-                    placeholder="name"
+                    placeholder="name" className={css.input1}
                 />
             </div>
-            <br />
-            <div className='label-input d-flex flex-column'>
-                <label htmlFor="city" className='label'>עיר:</label>
+            <div className=''>
+                <label htmlFor="city" className={css.label1}>עיר:</label>
                 <input
                     id="city"
                     value={city}
                     onChange={(e) => {
                         setCity(e.currentTarget.value)
                     }}
-                    placeholder="city"
+                    placeholder="city" className={css.input1}
                 />
             </div>
-            <br />
-            <div className='label-input d-flex flex-column'>
-                <label htmlFor="street" className='label'>רחוב:</label>
+            <div className=''>
+                <label htmlFor="street" className={css.label1}>רחוב:</label>
                 <input
                     id="street"
                     value={street}
                     onChange={(e) => {
                         setStreet(e.currentTarget.value)
                     }}
-                    placeholder="street"
+                    placeholder="street" className={css.input1}
                 />
             </div>
-            <br />
-            <select
+            <label htmlFor="">כשרות:</label>
+            <select className={css.select1}
                 value={kosher}
                 name="kosher"
                 id="kosher"
                 onChange={(e) => {
                     const cat = e.currentTarget.value as Kosher;
-                    setKosher(cat);
+                    setKosher(cat) 
                 }}
             >
                 <option value="בחירה">בחר</option>
@@ -85,56 +87,53 @@ const EditCard = () => {
                 <option value="בדץ בית יוסף">בדץ בית יוסף</option>
                 <option value="בדץ">בדץ</option>
             </select>
-            <div className='label-input d-flex flex-column'>
-                <label htmlFor="status" className='label'>סטטוס:</label>
+            <div className=''>
+                <label htmlFor="status" className={css.label1}>סטטוס:</label>
                 <input
                     id="status"
                     value={status}
                     onChange={(e) => {
                         setStatus(e.currentTarget.value)
                     }}
-                    placeholder="status"
+                    placeholder="status" className={css.input1}
                 />
             </div>
-
-            <br />
-            <div className='label-input d-flex flex-column'>
-                <label htmlFor="link_rest" className='label'>כתובת האתר:</label>
+            <div className=''>
+                <label htmlFor="link_rest" className={css.label1}>כתובת האתר:</label>
                 <input
                     id="link_rest"
                     value={link_rest}
                     onChange={(e) => {
                         setLink_rest(e.currentTarget.value)
                     }}
-                    placeholder="link_rest"
+                    placeholder="link_rest" className={css.input1}
                 />
             </div>
-            <br />
-            <div className='label-input d-flex flex-column'>
-                <label htmlFor="phone" className='label'>טלפון:</label>
+            <div className=''>
+                <label htmlFor="phone" className={css.label1}>טלפון:</label>
                 <input
                     id="phone"
                     value={phone}
                     onChange={(e) => {
                         setPhone(e.currentTarget.value)
                     }}
-                    placeholder="phone"
+                    placeholder="phone" className={css.input1}
                 />
             </div>
-            <br />
-            <div className='label-input d-flex flex-column'>
-                <label htmlFor="img" className='label'>תמונה:</label>
+            <div className=''>
+                <label htmlFor="img" className={css.label1}>תמונה:</label>
                 <input
                     id="img"
                     value={img}
                     onChange={(e) => {
                         setImg(e.currentTarget.value)
                     }}
-                    placeholder="image"
+                    placeholder="image" className={css.input1}
                 />
             </div>
             <br />
-            <button className='btn btn-success'
+            <br />
+            <button className={css.editing}
                 onClick={() => {
                     const card: Card = {
                         id: cardToEdit.id,
@@ -155,6 +154,9 @@ const EditCard = () => {
                 סיום עריכה <MdOutlineEditNote />
             </button>
         </div>
+            </div>
+
+        
     );
 };
 

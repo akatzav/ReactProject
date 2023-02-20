@@ -28,7 +28,7 @@ export const restaurants: Card[] = [
         id: "3",
         name: "greg",
         city: "באר שבע",
-        street: "שדרות דוד טוביהו, שדרות יצחק רגר",
+        street: " שדרות יצחק רגר",
         kosher: "מהדרין",
         status: "חלבי",
         link_rest: "https://gregcafe.co.il",
@@ -165,7 +165,7 @@ export const restaurants: Card[] = [
         status: "בשרי",
         link_rest: "/none",
         phone: " 053-2431706",
-        img: ''
+        img: 'https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/mexicani.jpg'
     },
     {
         id: "16",

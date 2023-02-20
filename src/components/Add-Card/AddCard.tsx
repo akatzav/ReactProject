@@ -8,6 +8,10 @@ import { useNavigate } from 'react-router-dom';
 import RestaurantList from '../../pages/card-list/RestaurantList';
 import Restaurant from '../../pages/card-item/Restaurant';
 import { restaurants } from '../../services/restaurant/restaurant';
+import Modal from "react-modal";
+import { Footer } from '../footer/Footer';
+import { HomePage } from '../Home-Page/HomePage';
+import css from './addCard.module.scss'
 
 export const AddCard = () => {
     const [name, setName] = useState("");
@@ -22,32 +26,38 @@ export const AddCard = () => {
     const dispatch = useAppDispatch();
     const nav = useNavigate();
 
-    function closeModal(): any {
-        throw new Error('Function not implemented.');
-    }
+    const [isOpen, setOpen] = useState(false);
+    Modal.setAppElement("#root");
+
+    const closeModal = () => {
+        setOpen(false);
+    };
+
+    const openModal = () => {
+        setOpen(true);
+    };
+
 
     return (
         <>
 
-            <div className='card1'>
-                <h2 className="p-3">:הוסף מסעדה</h2>
-            </div>
-            <div className="add" dir='rtl'>
+<div className='card1'>
+                    {/* <h2 className="p-3">הוסף מסעדה: </h2> */}
+                </div>
+            
+            <div className={css.add} dir='rtl'>
+                <h1 className={css.title2}>הוספת מסעדה:</h1>
                 <hr />
-                שם:
-                <br />
+                <label htmlFor="">שם:</label>
                 <input className="w-100%" value={name} onChange={(e) => setName(e.currentTarget.value)} />
                 <br />
-                עיר:
-                <br />
+                <label htmlFor="">עיר:</label>
                 <input value={city} onChange={(e) => setCity(e.currentTarget.value)} />
                 <br />
-                רחוב:
-                <br />
+                <label htmlFor="">רחוב:</label>
                 <input value={street} onChange={(e) => setStreet(e.currentTarget.value)} />
                 <br />
-                כשרות:
-                <br />
+                <label htmlFor="">כשרות:</label>
                 <select
                     value={kosher}
                     name="kosher"
@@ -68,25 +78,19 @@ export const AddCard = () => {
                         <option value="8">coffee</option>  */}
                 </select>
                 <br />
-                <br />
-                סטטוס:
-                <br />
+                <label htmlFor="">סטטוס:</label>
                 <input value={status} onChange={(e) => setStatus(e.currentTarget.value)} />
                 <br />
-                קישור לאתר:
-                <br />
+                <label htmlFor="">קישור לאתר:</label>
                 <input value={link_rest} onChange={(e) => setLink_rest(e.currentTarget.value)} />
                 <br />
-                טלפון:
-                <br />
+                <label htmlFor="">טלפון:</label>
                 <input value={phone} onChange={(e) => setPhone(e.currentTarget.value)} />
                 <br />
-                תמונה:
-                <br />
+                <label htmlFor="">תמונה:</label>
                 <input value={img} onChange={(e) => setImg(e.currentTarget.value)} />
                 <br />
-                <br />
-                <button
+                <button className={css.added}
                     onClick={() => {
                         const card: Card = {
                             id: v4(),
@@ -102,7 +106,6 @@ export const AddCard = () => {
                         //dispatch addCard(card)
                         dispatch(addCard(card));
                         console.log();
-
                         Swal.fire("success", "", "success").then((e) => closeModal());
                         <div className="d-flex flex-wrap justify-content-center mx-auto w-75">
                             {restaurants.map((a) => (
@@ -112,10 +115,10 @@ export const AddCard = () => {
 
                     }}
                 >
-                    Add Card:
+                    הוסף
                 </button>
+                <br />
             </div>
-
         </>
     )
 }

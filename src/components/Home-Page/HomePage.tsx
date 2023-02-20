@@ -22,7 +22,7 @@ export const HomePage = ({ title, logo, description }: HeaderProps) => {
     return (
         <div className={css.homePage} >
 
-            <br /><br /><br /><br /><br /><br /><br /><br />
+            <br />
             <div className={css.logoAndTitle}>
                 <img src={logo} className={css.logo} alt="" id="logo" />
             </div>
@@ -35,7 +35,7 @@ export const HomePage = ({ title, logo, description }: HeaderProps) => {
                     </p>
             </div>
                 
-            <br /><br /><br /><br /><Footer /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><Footer /><br /><br /><br /><br /><br /><br /><br /><br />
             
         </div>
     )

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Imported;
+    src: url("../../fonts/Heebo-Black.ttf")
+}
+
+.box{
+    margin-top: 90px;
+    font-family: Imported; 
+    color:#a9927d;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: auto auto;
+}
+
+
+.text{
+    left: 20px;
+    margin-top:0px;
+    margin-right: 300px;
+    text-shadow: 3px 2px #000;
+}
+
+.btn1{
+    background-color:darkgreen;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Imported;
+    font-size: 18px;
+}
+
+.btn1:hover{
+    background-color:chartreuse;
+}
+
+.image1{
+    //margin-right: 200px;
+    width: 400px;
+    height: 300px;
+    border:1px solid black
+}

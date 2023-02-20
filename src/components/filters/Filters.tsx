@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { restaurants } from "../../services/restaurant/restaurant";
 import Restaurant from "../../pages/card-item/Restaurant";
-
+import css from './filter.module.scss'
 
 
 export const Filters = () => {
@@ -31,12 +31,15 @@ export const Filters = () => {
     const choise55 = restaurants.filter(k => k.kosher === "יורה דעה");
     const choise66 = restaurants.filter(k => k.kosher === "רבנות");
     const choise77 = restaurants.filter(k => k.kosher === "בית יוסף")
+
+
     return (
         <div dir="rtl" className="cardFilter">
+            <div className={css.select}>
             <h4>סנן לפי:</h4>
 
             <select name="selectCity"
-                className="selectFilter"
+                className={css.selectFilter}
                 onChange={(e) => {
                     let menu = e.currentTarget.value;
                     switch (menu) {
@@ -60,7 +63,7 @@ export const Filters = () => {
 
             </select>
             <br /><br />
-            <select name="isAvailable" id="" className="selectFilter"
+            <select name="isAvailable" id="" className={css.selectFilter}
                 onChange={(e) => {
                     let menu2 = e.currentTarget.value;
                     switch (menu2) {
@@ -84,8 +87,8 @@ export const Filters = () => {
                 <option value="choise7">בית יוסף</option>
 
             </select><br /><br /><br /><br /><br />
-
-            <div className="d-flex flex-wrap justify-content-center mx-auto w-75">
+            </div>
+            <div className={css.filterCard}>
                 {rest.map((a) => (
                     <Restaurant key={a.id} {...a} />
                 ))}

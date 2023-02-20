@@ -11,8 +11,8 @@
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-filter: brightness(50%);
-    @media (min-width: 1050px) {
+/* filter: brightness(50%);
+ */    @media (min-width: 1050px) {
 
     }
 }
@@ -30,4 +30,8 @@ filter: brightness(50%);
         @media (max-width: 1050px) {
 
         }
+}
+
+.tAd{
+    margin-top: 20px;
 }
