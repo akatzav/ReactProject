@@ -16,4 +16,9 @@
     width: 18rem;
     height: 30rem;
     flex-wrap: wrap;
+    @media (max-width: 990px){
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+
 }

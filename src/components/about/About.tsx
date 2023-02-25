@@ -1,11 +1,25 @@
 import React from 'react'
 import css from './about.module.scss'
+import { AiOutlineSmile } from 'react-icons/ai'
 export const About = () => {
     return (
-        <div >
-            <p className={css.p2}>.אתר זה נועד על מנת להנגיש לציבור מסעדות בדרום עם מגוון כשרויות טובות יותר או פחות<br />
-                ..הנה הסבר קצרצר למה זה חשוב</p>
-            <iframe className={css.video} src="https://www.youtube.com/embed/4C3DLbtAU38" title="YouTube video" allowFullScreen></iframe>
+        <div className={css.about}>
+            <h3 className={css.h3}>אודות</h3>
+            <p className={css.p2}>.ברוכים הבאים למסעדות כשרות בדרום<br />
+            ,אתר שנועד עבור משפחות חמות ומלוכדות וחברים טובים כמוכם שאוהבים לבלות יחד, לאכול טוב<br /> .ובעיקר לעשות שמח, בדיוק כמו שישראלים יודעים
+
+                <br /><br /><br />
+                ,האתר מביא לכם את המסעדות עם הטעמים והניחוחות של המטבח הישראלי המסורתי והמודרני
+                <br />
+                .עם עיצוב מעורר תיאבון, אירוח לבבי ואווירה שמחה וקלילה שכל כך מתאימה לאופי שלנו, הישראלים
+                <br /><br />
+
+                .המסעדות כאן עם תפריט עשיר, ולא פחות חשוב, גם כשרות
+                <br />
+                .תוכלו למצוא גם מגוון מסעדות חלביות ובשריות כלבבכם
+<br />
+                <AiOutlineSmile />!!בתאבון
+</p>
         </div>
     )
 }

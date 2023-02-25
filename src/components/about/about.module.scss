@@ -2,14 +2,24 @@
     font-family: Imported;
     src: url("../../fonts/Heebo-Black.ttf")
 }
-
-.video{
-    width: 500px;
-    height: 300px;
+.h3{
+    font-family: Imported;
+    font-size: 30px;
+    color: #a9927d;
+    text-shadow: 3px 2px #000;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .p2{
     font-family: Imported;
     color:#a9927d;
     text-shadow: 3px 2px #000;
+    line-height: 30px;
+}
+
+@media (max-width:990px){
+    .about{
+        margin-top: 80px;
+    }
 }

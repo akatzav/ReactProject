@@ -3,25 +3,17 @@
     src: url("../../fonts/Heebo-Black.ttf")
 }
 
-/* 
-.selectFilter {
-    width: 189px;
-    height: 30px;
-}
- */
-
 .selectFilter {
     width: 189px;
     height: 30px;
 }
 
 .select {
-    margin-top: 20px;
+    margin-top: 40px;
     color: #a9927d;
     font-family: Imported;
 
 }
-
 
 .filterCard {
     display: grid !important;
@@ -36,4 +28,8 @@
     width: 18rem;
     height: 30rem;
     flex-wrap: wrap;
+    @media (max-width:990px){
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
 }

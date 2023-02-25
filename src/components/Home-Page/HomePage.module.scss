@@ -3,28 +3,27 @@
     src: url("../../fonts/Heebo-Black.ttf")
 }
 
-
 .homePage {
-    background-image: url(https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/kitchen5.jpg);
+    background-image: url(https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/newKitchen5.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-/* filter: brightness(50%);
- */    @media (min-width: 1050px) {
-
-    }
 }
 
 .title {
+    margin-top: 100px;
     font-family: Imported;
     color: #a9927d;
     font-size: 42px;
+    text-shadow: 3px 2px #49111c;
 }
 
 .description {
     color: #a9927d;
+    line-height: 30px;
+    text-shadow: 3px 2px #000;
     font-family: Imported;
     text-align: center;
         @media (max-width: 1050px) {

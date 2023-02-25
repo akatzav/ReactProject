@@ -11,16 +11,14 @@ const RestaurantList = () => {
     return (
         <>
             <AddCard />
-
             <div className={css.pageRes}>
                 <div className={css.cards} >
                     {cards.map((r) => (
                         <CardItem {...r} key={r.id} />
+                        
                     ))}
-                    <br /><br /><br /><br />
                 </div>
             </div>
-
             
         </>
     )

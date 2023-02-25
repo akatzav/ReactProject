@@ -6,11 +6,11 @@
     margin-top: 50px;
     border: 2px solid #a9927d;
     border-radius: 5px;
-        box-shadow: 5px 8px 3px #000;
-        text-align: right;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
+    box-shadow: 5px 8px 3px #000;
+    text-align: right;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -40,4 +40,11 @@ label{
     box-shadow: 20px 20px 50px #a9927d;
     border-radius: 5px;
     margin-right: 20px;
+}
+
+
+@media (max-width:990px){
+    .add{
+        width: 350px;
+    }
 }

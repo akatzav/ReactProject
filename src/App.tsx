@@ -16,16 +16,12 @@ import { Footer } from './components/footer/Footer';
 import { About } from './components/about/About';
 
 
-
 function App() {
   return (
     <div className="App">
         <NavBar />
-        {/* <HomePage title="מסעדות כשרות בדרום" logo={logo} /> */}
-        {/* <AddCard /> */}
         <Routes>
-          <Route path='/' element={<HomePage title="מסעדות כשרות בדרום" logo={logo} description={".באתר זה תוכלו למצוא מגוון של מסעדות בכשרויות שונות בדרום"} />} />
-          {/*   <Route path='/' element={<TitleAndLogo title="מסעדות כשרות בדרום" logo={logo} description={"באתר זה תוכלו למצוא מגוון של מסעדות בכשרויות שונות בדרום"}/>} /> */}
+          <Route path='/' element={<HomePage title="מסעדות כשרות בדרום" description={".באתר זה תוכלו למצוא מגוון של מסעדות בכשרויות שונות בדרום"} />} />
           <Route path='/Filters' element={<Filters />} />
           <Route path='/About' element={<About />}/>
           <Route path="/AddCard" element={<AddCard />} />

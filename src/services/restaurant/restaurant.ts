@@ -150,7 +150,7 @@ export const restaurants: Card[] = [
         name: "Joya",
         city: "נתיבות",
         street: "  סמלו 78 78 ",
-        kosher: "בדץ בית יוסף",
+        kosher: "בית יוסף",
         status: "בשרי",
         link_rest: "https://www.joyasushi.co.il",
         phone: " 08-6900982",
@@ -195,7 +195,7 @@ export const restaurants: Card[] = [
         city: "אשקלון",
         street: "בת גלים 1",
         status: "פרווה",
-        kosher: "בדץ בית יוסף",
+        kosher: "בית יוסף",
         link_rest: "https://www.nissorest.co.il/",
         phone: "08-995-4545",
         img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/fish.jpg"
@@ -290,7 +290,19 @@ export const restaurants: Card[] = [
         link_rest: "/none",
         phone: "050-4119009",
         img: "https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/hihiohm.jpg"
+    },
+    {
+        id:"27",
+        name:"חומוס אליהו",
+        city:"שדרות",
+        street:"פריז 2",
+        status:"פרווה",
+        kosher:"מהדרין",
+        link_rest:"https://www.humus-eli-yahoo.com/",
+        phone:"1-700-500-148",
+        img:""
     }
+
 
 ]
 

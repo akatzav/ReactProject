@@ -3,21 +3,75 @@
     src: url("../../fonts/Heebo-Black.ttf")
 }
 
-.nav {
+.ul{
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.navLinks {
-    margin-top: 50px;
-    font-family: Imported, serif;
+.a{
+    text-decoration: none;
     color: #a9927d;
+    font-family: Imported;
     font-size: 20px;
-    margin-right: auto;
-    margin-left: auto;
-
 }
 
+.a:hover{
+    color: #a9927d;
+    border-bottom:5px solid #49111c;
+}
 
-.navLinks:hover {
-    color: #F2F4F3;
+.NavBar .MobileNavigation{
+    display: none;
+}
+
+@media (max-width:990px){
+    .NavBar .Navigation{
+        display: none;
+    }
+
+    .NavBar .MobileNavigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .NavBar .MobileNavigation .Hamburder{
+        cursor: pointer;
+        position: fixed;
+        z-index: 1;
+        margin-top: 40px;
+        position: absolute;
+        right: 5%;
+    }
+
+    .NavBar nav .ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 2px;
+        right: 0;
+        width: 100%;
+        background: #181818;
+        border-top: 1px solid #a9927d;
+    }
+
+    .NavBar nav .ul li{
+        padding-left: 15%;
+    }
+
+    .NavBar{
+        opacity: 1;
+    }
+
+    .NavBar a{
+        color:#fff;
+    }
+
+    .NavBar a:hover{
+        border-bottom: none;
+        color: #a9927d;
+    }
+
 }

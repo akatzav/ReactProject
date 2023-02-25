@@ -10,14 +10,25 @@
     display: grid;
     gap: 0px;
     grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:990px){
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
 }
 
 
 .text{
     left: 20px;
     margin-top:0px;
-    margin-right: 300px;
     text-shadow: 3px 2px #000;
+    text-align: center;
+    margin-right: 150px;
+    @media (max-width:990px){
+        margin-right: 50px;
+    }
 }
 
 .btn1{
@@ -29,13 +40,24 @@
     font-size: 18px;
 }
 
+.btn2{
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color:blue;
+    border:none;
+    @media (max-width:990px){
+        margin-bottom: 50px;
+
+    }
+    
+}
+
+.btn2:hover{
+    background-color:aqua;
+    
+}
+
 .btn1:hover{
     background-color:chartreuse;
 }
 
-.image1{
-    //margin-right: 200px;
-    width: 400px;
-    height: 300px;
-    border:1px solid black
-}

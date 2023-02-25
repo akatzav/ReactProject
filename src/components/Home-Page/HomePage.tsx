@@ -13,24 +13,20 @@ import { Footer } from '../footer/Footer'
 
 type HeaderProps = {
     title: string;
-    logo: string,
     description: string
 }
 
-export const HomePage = ({ title, logo, description }: HeaderProps) => {
+export const HomePage = ({ title,  description }: HeaderProps) => {
 
     return (
         <div className={css.homePage} >
 
             <br />
-            <div className={css.logoAndTitle}>
-                <img src={logo} className={css.logo} alt="" id="logo" />
-            </div>
             <br />
             <div className={css.tAd}>
                 <h1 className={css.title}>{title}</h1>
                 <p className={css.description}><br />!האתר האולטימטיבי למסעדות כשרות<br />
-                    .אתר זה נוסד במיוחד בשבילך על מנת להקל את תהליך חיפוש אחר מסעדות כשרות בדרום<br />
+                    .אתר זה נועד במיוחד בשבילך על מנת להקל את תהליך חיפוש אחר מסעדות כשרות בדרום<br />
                     .תוכלו למצוא לחפש מאפיינים מסויימים ולקבל את המענה הרצוי<br />
                     </p>
             </div>
