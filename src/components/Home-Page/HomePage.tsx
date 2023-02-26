@@ -1,14 +1,4 @@
-import React from 'react'
-import { Nav } from 'react-bootstrap'
-import Container from 'react-bootstrap/esm/Container'
-import Navbar from "react-bootstrap/Navbar"
-import { NavLink } from 'react-router-dom'
-import { AiOutlinePlusCircle } from 'react-icons/ai'
-import { AiOutlineHome } from 'react-icons/ai'
-import { GrCircleInformation, GrCircleAlert, GrRestaurant } from 'react-icons/gr'
-import { BiFilter } from 'react-icons/bi'
 import css from './HomePage.module.scss'
-import { IoIosInformationCircleOutline } from 'react-icons/io'
 import { Footer } from '../footer/Footer'
 
 type HeaderProps = {
@@ -20,7 +10,6 @@ export const HomePage = ({ title,  description }: HeaderProps) => {
 
     return (
         <div className={css.homePage} >
-
             <br />
             <br />
             <div className={css.tAd}>

@@ -300,20 +300,9 @@ export const restaurants: Card[] = [
         kosher:"מהדרין",
         link_rest:"https://www.humus-eli-yahoo.com/",
         phone:"1-700-500-148",
-        img:""
+        img:"https://raw.githubusercontent.com/akatzav/ReactProject/main/src/image/hummus.png"
     }
 
 
 ]
 
-/*
-id:
-name:
-city:
-street:
-status:
-kosher:
-link_rest:
-phone:
-img:
-*/

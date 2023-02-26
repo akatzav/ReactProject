@@ -1,4 +1,3 @@
-import React from 'react'
 import css from './footer.module.scss'
 import { HiOutlineMailOpen } from 'react-icons/hi'
 import { AiOutlineWhatsApp } from 'react-icons/ai'

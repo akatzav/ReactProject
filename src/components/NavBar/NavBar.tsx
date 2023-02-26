@@ -1,5 +1,4 @@
 import css from './NavBar.module.scss'
-import { useState } from 'react'
 import { MobileNavigation } from './MobileNavigation';
 import { Navigation } from './Navigation';
 
@@ -10,9 +9,6 @@ export const NavBar = () => {
             <MobileNavigation />
             
         </div>
-
-
-
     )
 }
 

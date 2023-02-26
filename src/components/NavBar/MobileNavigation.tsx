@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavLinks } from './NavLinks'
 import css from './NavBar.module.scss'
 import { CgMenuRound } from 'react-icons/cg'

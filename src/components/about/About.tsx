@@ -1,4 +1,3 @@
-import React from 'react'
 import css from './about.module.scss'
 import { AiOutlineSmile } from 'react-icons/ai'
 export const About = () => {
@@ -17,9 +16,9 @@ export const About = () => {
                 .המסעדות כאן עם תפריט עשיר, ולא פחות חשוב, גם כשרות
                 <br />
                 .תוכלו למצוא גם מגוון מסעדות חלביות ובשריות כלבבכם
-<br />
+                <br />
                 <AiOutlineSmile />!!בתאבון
-</p>
+                </p>
         </div>
     )
 }

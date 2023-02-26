@@ -1,7 +1,5 @@
-import React from 'react'
 import { NavLinks } from './NavLinks'
 import css from './NavBar.module.scss'
-
 
 
 export const Navigation = () => {

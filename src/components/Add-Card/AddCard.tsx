@@ -40,9 +40,7 @@ export const AddCard = () => {
 
     return (
         <>
-
-<div className='card1'>
-                    {/* <h2 className="p-3">הוסף מסעדה: </h2> */}
+                <div className='card1'>
                 </div>
             
             <div className={css.add} dir='rtl'>
@@ -74,8 +72,6 @@ export const AddCard = () => {
                     <option value="רבנות">רבנות</option>
                     <option value="בדץ בית יוסף">בדץ בית יוסף</option>
                     <option value="בדץ">בדץ</option>
-                    {/* <option value="7">softDrink</option>
-                        <option value="8">coffee</option>  */}
                 </select>
                 <br />
                 <label htmlFor="">סטטוס:</label>
@@ -103,7 +99,6 @@ export const AddCard = () => {
                             phone: phone,
                             img: img,
                         };
-                        //dispatch addCard(card)
                         dispatch(addCard(card));
                         console.log();
                         Swal.fire("success", "", "success").then((e) => closeModal());
@@ -112,7 +107,6 @@ export const AddCard = () => {
                                 <Restaurant key={a.id} {...a} />
                             ))}
                         </div>
-
                     }}
                 >
                     הוסף
