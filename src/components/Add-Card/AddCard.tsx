@@ -1,16 +1,13 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { useAppDispatch } from '../../app/hook';
 import Swal from 'sweetalert2';
 import { Card, addCard, Kosher } from '../../features/cards/cardSlice';
 import { v4 } from "uuid";
 import '../../themed-bootstrap.scss'
 import { useNavigate } from 'react-router-dom';
-import RestaurantList from '../../pages/card-list/RestaurantList';
 import Restaurant from '../../pages/card-item/Restaurant';
 import { restaurants } from '../../services/restaurant/restaurant';
 import Modal from "react-modal";
-import { Footer } from '../footer/Footer';
-import { HomePage } from '../Home-Page/HomePage';
 import css from './addCard.module.scss'
 
 export const AddCard = () => {
